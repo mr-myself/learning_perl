@@ -80,3 +80,9 @@ print $try + 12; #undefは数字やとゼロとされる。文字列やったら
 defined($try); #undefなら偽、それ以外なら真を返す
 
 
+
+## 練習問題 ##
+
+#1
+my $half = 12.5;
+print $half * 2 * 3.141592654;
